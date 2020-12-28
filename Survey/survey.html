@@ -1,0 +1,64 @@
+<!--Pure HTML Project-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Student Survey 2020</title>
+</head>
+<body>
+	<nav align = "center">
+		<a href = "#home">Home</a>
+		<a href = "#about">About</a>
+		<a href = "#contact">Contact</a>
+	</nav>
+	<main>
+		<div align = "center">
+			<h1>Student Survey</h1>
+			<h2>Your response will help us provide a better academic life for the upcoming quarters</h2> 
+			<h2>Before you take the survey</h2>
+				<ul>
+					<li>You must be a student at the University of XXX.</li>
+					<li>You may withdraw from the survery at any point.</li>
+					<li>The survery will take approximately 5 to 10 minutes.</li>
+				</ul>
+			<h3>Part I: Basic Information</h3>
+				<p>1. What year are you in?</p>
+					<input type = "number" name = "year" placeholder = "2024">
+				<p>2. What is your race/ethnicity?</p>
+					<select name = "race">
+							<option>Prefer Not to Answer
+							<option>American Indian or Alaska Native
+							<option>Asian
+							<option>Black or African Ameircan
+							<option>White
+							<option>Native Hawaiian or Other Pacific Islander
+					</select>
+				<p>3. What is your age?</p>
+					<input type = "number" name = "age">
+				<p>4. What is your (intended) major?</p>
+					<input type = "text" name = "major">
+				<p>5. Select currently enrolled courses.</p>
+					<input type = "checkbox" name = "english">English
+					<input type = "checkbox" name = "math">Mathematics
+					<input type = "checkbox" name = "chemistry">Chemistry
+					<input type = "checkbox" name = "physics">Physics
+				<p>6. What is your student ID?</p>
+					<input type = "number" name = "studentnumber" placeholder="XXXXXXX" required>
+				<p>7. Additional Comments</p>
+					<textarea name="comment" cols="20" rows="3"></textarea>
+					<br>
+			<h3>Part II: Satisfaction</h3>
+				<p>8. How satisfied are you with your academic life?</p>
+					<input type = "radio" name = "satisfied" value = 1>Very Dissatisfied
+					<input type = "radio" name = "satisfied" value = 2>Dissatisfied
+					<input type = "radio" name = "satisfied" value = 3>Neither Satisfied or Dissatisfied
+					<input type = "radio" name = "satisfied" value = 4>Satisfied
+					<input type = "radio" name = "satisfied" value = 5>Very Satisfied
+				<p>
+				<br>
+		</div>
+	<main>
+	<div align="center">
+		<button type="submit">Submit</button>
+	</div>
+</body>
+<html>
